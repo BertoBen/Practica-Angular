@@ -1,0 +1,26 @@
+<br><br><br>
+
+
+
+<div class="contenedor" *ngIf="producto">
+    <img class="producto-imagen" [src]="producto.getImagen()" alt="imagen del producto">
+    
+    <div class="info">
+      <h2 class="producto-nombre">{{producto.getNombre()}}</h2>
+      <p class="producto-descripcion">{{producto.getDescripcion()}}</p>
+      <h4 class="producto-precio">{{producto.getPrecio() | currency: 'EUR'}}</h4>
+      <img [src]="producto.getImagen()" alt="imagen del producto en miniatura" class="miniatura-imagen">
+        <div class="tallas">
+            <a href="...">{{'s' | uppercase}}</a>
+            <a href="...">{{'m' | uppercase}}</a>
+            <a href="...">{{'l' | uppercase}}</a>
+            <a href="...">{{'xl' | uppercase}}</a>
+            <a href="...">{{'xxl' | uppercase}}</a>
+        </div>
+    </div>
+  </div>
+
+  <div *ngIf="!producto">
+    <p>Producto no encontrado.</p>
+  </div>
+  

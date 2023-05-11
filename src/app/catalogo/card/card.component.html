@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem;" *ngIf="producto">
+    <img [src]="producto.getImagen()" class="card-img-top" alt="Imagen del producto {{producto.getNombre()}}">
+    <div class="card-body">
+        <h5 class="card-title">{{producto.getNombre()}}</h5>
+        <p class="card-text">{{producto.getDescripcion()}}</p>
+        <h5 class="card-precio">{{producto.getPrecio() | currency: 'EUR'}}</h5>
+        <a (click)="pulsarBoton()" class="btn btn-primary">{{textoBoton}}</a>
+    </div>
+</div>
+

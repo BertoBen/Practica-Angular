@@ -1,0 +1,43 @@
+.miniatura-imagen {
+    position: absolute;
+    bottom: 160px;
+    left: 595px;
+    width: 100px;
+}
+
+.producto-imagen {
+    width: 500px;
+    float: left;
+    margin: 50px;
+}
+
+.contenedor {
+    overflow: hidden;
+    position: relative;
+}
+
+a {
+    padding: 18px;
+    margin: 2px;
+    background-color: rgb(160, 159, 159);
+    color: rgb(253, 253, 253);
+    font-size: 20pt;
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 18pt;
+}
+
+.tallas {
+
+    position: absolute;
+    bottom: 68px;
+    left: 595px;
+}
+
+
+.info {
+    margin-top: 310px;
+}

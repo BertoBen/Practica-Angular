@@ -1,0 +1,6 @@
+<div class="contenedor-categoria" *ngIf="imagen">
+    <div class="card-categoria" [routerLink]="['catalogo']">
+        <img [src]="imagen.getImagen()" class="img-thumbnail" alt="Imagen-categoria">
+        <h5 class="nombre-categoria">{{imagen.getNombre()}}</h5>
+    </div>
+</div>

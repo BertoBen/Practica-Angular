@@ -1,0 +1,28 @@
+.card { 
+
+    position: relative;
+    float: left;
+    margin: 20px;
+    height: 550px;
+
+    left: 50px;
+
+
+}
+
+a {
+
+    position: absolute;
+    bottom: 22px;
+    right: 22px;
+
+}
+
+.card-precio {
+
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+
+}
+

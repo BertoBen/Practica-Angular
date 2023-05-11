@@ -1,0 +1,15 @@
+.navbar-nav li.active > a {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.navbar-brand {
+    margin-left: 35px;
+    margin-right: 50px;
+}
+
+.logotipo {
+    margin-left: 35px;
+    width: 30px;
+}
+

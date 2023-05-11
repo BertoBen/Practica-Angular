@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor-categoria {
+
+    margin-left: 50%;
+    transform: translate(-50%);
+
+}
+
+.card-categoria {
+    float: left;
+    margin: 20px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.nombre-categoria {
+    text-align: center;
+    padding: 15px;
+}
